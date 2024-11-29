@@ -32,7 +32,7 @@ class Esercizio {
         System.out.println("Media = " + media);
         for (i = 0; i <= n - 1; i++){
             if (voto[i] > media && credito[i] >= 6){
-                    System.out.println("Lo studente " + nome[i] + " ha ottenuto una votazione maggiore della media e dei crediti maggiori di 6");
+                System.out.println("Lo studente " + nome[i] + " ha ottenuto una votazione maggiore della media e dei crediti maggiori di 6");
             }
         }
     }  
